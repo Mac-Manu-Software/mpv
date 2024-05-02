@@ -1,8 +1,8 @@
 version: "3"
-services: 
-  postgres: 
+services:
+  postgres:
     image: postgres:15.1
     ports:
       - 5432:5432
     environment:
-      POSTGRES_PASSWWORD: postgres
+      POSTGRES_PASSWORD: postgres
